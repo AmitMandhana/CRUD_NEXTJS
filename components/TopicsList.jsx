@@ -7,7 +7,7 @@ import { HiPencilAlt } from "react-icons/hi";
 const getTopics = async () => {
   try {
     const res = await fetch("https://crud-nextjs-adje.vercel.app/api/topics", {
-      cache: "no-store",
+      cache: "no-store", // Disable caching to always fetch fresh data
     });
 
     if (!res.ok) {
