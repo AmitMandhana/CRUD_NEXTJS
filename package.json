@@ -1,7 +1,22 @@
 {
-  "name": "mongodbcrud",
+  "name": "crud-nextjs-mongodb",
   "version": "0.1.0",
+  "description": "A full-stack CRUD application built with Next.js 13+ and MongoDB for managing topics",
   "private": true,
+  "keywords": [
+    "nextjs",
+    "react",
+    "mongodb",
+    "crud",
+    "fullstack",
+    "tailwindcss",
+    "mongoose"
+  ],
+  "author": "Amit Mandhana",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmitMandhana/CRUD_NEXTJS.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
